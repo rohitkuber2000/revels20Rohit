@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6945287239B93A40062A3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6945286239B93A40062A3C4 /* AppDelegate.swift */; };
+		C6945289239B93A40062A3C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6945288239B93A40062A3C4 /* SceneDelegate.swift */; };
+		C694528B239B93A40062A3C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694528A239B93A40062A3C4 /* ViewController.swift */; };
+		C694528E239B93A40062A3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C694528C239B93A40062A3C4 /* Main.storyboard */; };
+		C6945290239B93A60062A3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C694528F239B93A60062A3C4 /* Assets.xcassets */; };
+		C6945293239B93A60062A3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6945291239B93A60062A3C4 /* LaunchScreen.storyboard */; };
+		C694529E239B93A60062A3C4 /* revels20RohitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694529D239B93A60062A3C4 /* revels20RohitTests.swift */; };
+		C69452A9239B93A60062A3C4 /* revels20RohitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69452A8239B93A60062A3C4 /* revels20RohitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C694529A239B93A60062A3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C694527B239B93A40062A3C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6945282239B93A40062A3C4;
+			remoteInfo = revels20Rohit;
+		};
+		C69452A5239B93A60062A3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C694527B239B93A40062A3C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6945282239B93A40062A3C4;
+			remoteInfo = revels20Rohit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6945283239B93A40062A3C4 /* revels20Rohit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = revels20Rohit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6945286239B93A40062A3C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6945288239B93A40062A3C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C694528A239B93A40062A3C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C694528D239B93A40062A3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C694528F239B93A60062A3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6945292239B93A60062A3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6945294239B93A60062A3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6945299239B93A60062A3C4 /* revels20RohitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = revels20RohitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C694529D239B93A60062A3C4 /* revels20RohitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revels20RohitTests.swift; sourceTree = "<group>"; };
+		C694529F239B93A60062A3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69452A4239B93A60062A3C4 /* revels20RohitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = revels20RohitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69452A8239B93A60062A3C4 /* revels20RohitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revels20RohitUITests.swift; sourceTree = "<group>"; };
+		C69452AA239B93A60062A3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6945280239B93A40062A3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945296239B93A60062A3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69452A1239B93A60062A3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C694527A239B93A40062A3C4 = {
+			isa = PBXGroup;
+			children = (
+				C6945285239B93A40062A3C4 /* revels20Rohit */,
+				C694529C239B93A60062A3C4 /* revels20RohitTests */,
+				C69452A7239B93A60062A3C4 /* revels20RohitUITests */,
+				C6945284239B93A40062A3C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6945284239B93A40062A3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6945283239B93A40062A3C4 /* revels20Rohit.app */,
+				C6945299239B93A60062A3C4 /* revels20RohitTests.xctest */,
+				C69452A4239B93A60062A3C4 /* revels20RohitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6945285239B93A40062A3C4 /* revels20Rohit */ = {
+			isa = PBXGroup;
+			children = (
+				C6945286239B93A40062A3C4 /* AppDelegate.swift */,
+				C6945288239B93A40062A3C4 /* SceneDelegate.swift */,
+				C694528A239B93A40062A3C4 /* ViewController.swift */,
+				C694528C239B93A40062A3C4 /* Main.storyboard */,
+				C694528F239B93A60062A3C4 /* Assets.xcassets */,
+				C6945291239B93A60062A3C4 /* LaunchScreen.storyboard */,
+				C6945294239B93A60062A3C4 /* Info.plist */,
+			);
+			path = revels20Rohit;
+			sourceTree = "<group>";
+		};
+		C694529C239B93A60062A3C4 /* revels20RohitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C694529D239B93A60062A3C4 /* revels20RohitTests.swift */,
+				C694529F239B93A60062A3C4 /* Info.plist */,
+			);
+			path = revels20RohitTests;
+			sourceTree = "<group>";
+		};
+		C69452A7239B93A60062A3C4 /* revels20RohitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C69452A8239B93A60062A3C4 /* revels20RohitUITests.swift */,
+				C69452AA239B93A60062A3C4 /* Info.plist */,
+			);
+			path = revels20RohitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6945282239B93A40062A3C4 /* revels20Rohit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69452AD239B93A60062A3C4 /* Build configuration list for PBXNativeTarget "revels20Rohit" */;
+			buildPhases = (
+				C694527F239B93A40062A3C4 /* Sources */,
+				C6945280239B93A40062A3C4 /* Frameworks */,
+				C6945281239B93A40062A3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = revels20Rohit;
+			productName = revels20Rohit;
+			productReference = C6945283239B93A40062A3C4 /* revels20Rohit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6945298239B93A60062A3C4 /* revels20RohitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69452B0239B93A60062A3C4 /* Build configuration list for PBXNativeTarget "revels20RohitTests" */;
+			buildPhases = (
+				C6945295239B93A60062A3C4 /* Sources */,
+				C6945296239B93A60062A3C4 /* Frameworks */,
+				C6945297239B93A60062A3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C694529B239B93A60062A3C4 /* PBXTargetDependency */,
+			);
+			name = revels20RohitTests;
+			productName = revels20RohitTests;
+			productReference = C6945299239B93A60062A3C4 /* revels20RohitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C69452A3239B93A60062A3C4 /* revels20RohitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69452B3239B93A60062A3C4 /* Build configuration list for PBXNativeTarget "revels20RohitUITests" */;
+			buildPhases = (
+				C69452A0239B93A60062A3C4 /* Sources */,
+				C69452A1239B93A60062A3C4 /* Frameworks */,
+				C69452A2239B93A60062A3C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C69452A6239B93A60062A3C4 /* PBXTargetDependency */,
+			);
+			name = revels20RohitUITests;
+			productName = revels20RohitUITests;
+			productReference = C69452A4239B93A60062A3C4 /* revels20RohitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C694527B239B93A40062A3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Rohit Kuber";
+				TargetAttributes = {
+					C6945282239B93A40062A3C4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C6945298239B93A60062A3C4 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C6945282239B93A40062A3C4;
+					};
+					C69452A3239B93A60062A3C4 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C6945282239B93A40062A3C4;
+					};
+				};
+			};
+			buildConfigurationList = C694527E239B93A40062A3C4 /* Build configuration list for PBXProject "revels20Rohit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C694527A239B93A40062A3C4;
+			productRefGroup = C6945284239B93A40062A3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6945282239B93A40062A3C4 /* revels20Rohit */,
+				C6945298239B93A60062A3C4 /* revels20RohitTests */,
+				C69452A3239B93A60062A3C4 /* revels20RohitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6945281239B93A40062A3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6945293239B93A60062A3C4 /* LaunchScreen.storyboard in Resources */,
+				C6945290239B93A60062A3C4 /* Assets.xcassets in Resources */,
+				C694528E239B93A40062A3C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945297239B93A60062A3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69452A2239B93A60062A3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C694527F239B93A40062A3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C694528B239B93A40062A3C4 /* ViewController.swift in Sources */,
+				C6945287239B93A40062A3C4 /* AppDelegate.swift in Sources */,
+				C6945289239B93A40062A3C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945295239B93A60062A3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C694529E239B93A60062A3C4 /* revels20RohitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69452A0239B93A60062A3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69452A9239B93A60062A3C4 /* revels20RohitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C694529B239B93A60062A3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6945282239B93A40062A3C4 /* revels20Rohit */;
+			targetProxy = C694529A239B93A60062A3C4 /* PBXContainerItemProxy */;
+		};
+		C69452A6239B93A60062A3C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6945282239B93A40062A3C4 /* revels20Rohit */;
+			targetProxy = C69452A5239B93A60062A3C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C694528C239B93A40062A3C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C694528D239B93A40062A3C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6945291239B93A60062A3C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6945292239B93A60062A3C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C69452AB239B93A60062A3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C69452AC239B93A60062A3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C69452AE239B93A60062A3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CPSMM6Y56;
+				INFOPLIST_FILE = revels20Rohit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.revels20Rohit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C69452AF239B93A60062A3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CPSMM6Y56;
+				INFOPLIST_FILE = revels20Rohit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.revels20Rohit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C69452B1239B93A60062A3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CPSMM6Y56;
+				INFOPLIST_FILE = revels20RohitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.revels20RohitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/revels20Rohit.app/revels20Rohit";
+			};
+			name = Debug;
+		};
+		C69452B2239B93A60062A3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CPSMM6Y56;
+				INFOPLIST_FILE = revels20RohitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.revels20RohitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/revels20Rohit.app/revels20Rohit";
+			};
+			name = Release;
+		};
+		C69452B4239B93A60062A3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CPSMM6Y56;
+				INFOPLIST_FILE = revels20RohitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.revels20RohitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = revels20Rohit;
+			};
+			name = Debug;
+		};
+		C69452B5239B93A60062A3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CPSMM6Y56;
+				INFOPLIST_FILE = revels20RohitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = R.revels20RohitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = revels20Rohit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C694527E239B93A40062A3C4 /* Build configuration list for PBXProject "revels20Rohit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69452AB239B93A60062A3C4 /* Debug */,
+				C69452AC239B93A60062A3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69452AD239B93A60062A3C4 /* Build configuration list for PBXNativeTarget "revels20Rohit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69452AE239B93A60062A3C4 /* Debug */,
+				C69452AF239B93A60062A3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69452B0239B93A60062A3C4 /* Build configuration list for PBXNativeTarget "revels20RohitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69452B1239B93A60062A3C4 /* Debug */,
+				C69452B2239B93A60062A3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69452B3239B93A60062A3C4 /* Build configuration list for PBXNativeTarget "revels20RohitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69452B4239B93A60062A3C4 /* Debug */,
+				C69452B5239B93A60062A3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C694527B239B93A40062A3C4 /* Project object */;
+}
