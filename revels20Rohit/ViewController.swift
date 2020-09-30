@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         fibonaccis(10)
         
         lstring("Rohit", "John is a good boy")
-        let names = ["Rohit","Naman","Akhilesh","Tushar"]
+        let names = ["Tushar","Rohit","Naman","Akhilesh"]
          
         strswap(names,2)
 
@@ -71,6 +71,10 @@ class ViewController: UIViewController {
             print("Invalid index")
         }
         
+    }
+    
+    func rem(){
+        print("Hacktober Hello")
     }
     
 
