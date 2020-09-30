@@ -9,9 +9,9 @@
 import Foundation
 //This is to store  the hierarchical form of Json data
 
-struct  Data: Decodable {
-    
-    var Data: [EventData]
+struct  Eventresp: Decodable {
+    var success: Bool
+    var data: [EventData]?
 }
 
 struct EventData: Decodable{

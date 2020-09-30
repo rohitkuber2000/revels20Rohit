@@ -13,14 +13,14 @@ enum detailError: Error{
     case canNotProcessData
 }
 struct  EventDetails {
-
+  static   let shareInstance = EventDetails()
     let resourceURL: URL
     init(){
     let eventURL = "https://api.techtatva.in/events"
     guard let rURL = URL(string: eventURL) else {
     fatalError()
     }
-    
+   
     self.resourceURL = rURL
     }
     
@@ -34,10 +34,10 @@ struct  EventDetails {
         do{
             let decoder = JSONDecoder()
             print("rohit")
-            let eventResponse = try decoder.decode(Data.self, from: jsonData) //code stops working here
-//            print("Kuber")
-            let EventDatas = eventResponse.Data
-            completion(.success(EventDatas))
+            let eventResponse = try decoder.decode(Eventresp.self, from: jsonData) 
+            print("Kuber")
+            let EventDatas = eventResponse.data
+            completion(.success(EventDatas!))
         }catch{
             completion(.failure(.canNotProcessData))
         }

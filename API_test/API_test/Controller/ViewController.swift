@@ -17,19 +17,22 @@ class ViewController: UIViewController {
 //Doubt here, is this the right way to populate the data of the array, 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let eventRequest =  EventDetails()
-        eventRequest.getDetails{ [weak self] result in
-            switch result{
-            case  .failure(let error):
-                  print(error)
-            case .success(let details):
-                self?.revEvents = details
-        }
+       populateData()
+}
+    
+    func populateData(){
+        EventDetails.shareInstance.getDetails{ [weak self] result in
+                  switch result{
+                  case  .failure(let error):
+                        print(error)
+                  case .success(let details):
+                      self?.revEvents = details
+              }
+              
+          }
+        tableView.reloadData()
         
     }
-
-
-}
 }
 extension ViewController : UITableViewDataSource ,UITableViewDelegate{
     
@@ -42,7 +45,9 @@ extension ViewController : UITableViewDataSource ,UITableViewDelegate{
         let cell = tableView.dequeueReusableCell(withIdentifier: "revelCategories") as! EventCell
 
         let eventInfo = revEvents[indexPath.row]
+//        print("Hello world") code is not reaching here
         cell.setDetails( eventInfo : eventInfo)
+//        print("thor")
         return cell
         
     }
